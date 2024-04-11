@@ -1,5 +1,6 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap')/* * the Asterisk is a "wildcard selector" that overrides default styles added by the browser*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Play:wght@400;700&display=swap')
+/* * the Asterisk is a "wildcard selector" that overrides default styles added by the browser*/
 *{
     padding:0;
     margin:0;
@@ -11,12 +12,16 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #3a3a3a;
-    font-family:"Play", sans-serif
+    color: #c61c1c;
+    font-family: "Dosis", sans-serif;
 }
 
 header {
     background-color: rgb(0, 255, 136);
+}
+
+h1 {
+    font-family: "Play";
 }
 main {
     background-color: rgb(98, 170, 164);
