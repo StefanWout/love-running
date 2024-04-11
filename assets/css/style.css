@@ -12,19 +12,24 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #b68235;
+    color: #3a3a3a;
     font-family: "Dosis", sans-serif;
 }
 
 header {
-    background-color: rgb(92, 98, 165);
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
     font-family: "Play";
 }
 main {
-    background-color: rgb(98, 170, 164);
+    background-color: rgb(198, 151, 63);
     /* Makes main element take up any surplus space*/
     flex:1 0 auto;
 }
