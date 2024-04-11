@@ -12,12 +12,12 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #c61c1c;
+    color: #b68235;
     font-family: "Dosis", sans-serif;
 }
 
 header {
-    background-color: rgb(0, 255, 136);
+    background-color: rgb(92, 98, 165);
 }
 
 h1 {
