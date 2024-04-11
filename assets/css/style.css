@@ -5,13 +5,22 @@
     margin:0;
     box-sizing: border-box;
 }
-
+/* general styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project styles*/
+    color: #3a3a3a
+}
 
 header {
     background-color: rgb(0, 255, 136);
 }
 main {
-    background-color: chocolate;
+    background-color: rgb(98, 170, 164);
+    /* Makes main element take up any surplus space*/
+    flex:1 0 auto;
 }
 footer {
     color: burlywood;
